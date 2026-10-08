@@ -11,7 +11,7 @@ header.site{border-bottom:1px solid var(--border);background:rgba(5,7,11,.9);pos
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;min-height:60px;gap:16px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none;letter-spacing:.01em}
 .brand img{width:28px;height:28px}
-nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:.95rem}
+nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:.95rem;display:inline-block;padding:10px 2px}
 nav a:hover{color:#fff}
 .hero{padding:88px 0 64px;background:radial-gradient(60% 80% at 70% 0%,rgba(59,130,246,.18),transparent 70%)}
 .badge{display:inline-block;border:1px solid rgba(245,158,11,.5);color:#fbbf24;background:rgba(245,158,11,.08);padding:4px 12px;border-radius:999px;font-size:.85rem;font-weight:600}
@@ -21,7 +21,7 @@ h1 span{color:var(--accent)}
 .btn{display:inline-block;background:#2f6fe0;color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px}
 .btn:hover{background:#2a62c8;color:#fff}
 .btn.ghost{background:transparent;border:1px solid var(--border);color:var(--fg);margin-left:10px}
-section{padding:56px 0;border-top:1px solid var(--border)}
+section{scroll-margin-top:80px;padding:56px 0;border-top:1px solid var(--border)}
 h2{font-size:1.7rem;margin:0 0 12px;letter-spacing:-.01em}
 .sub{color:var(--muted);max-width:720px;margin:0 0 28px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
